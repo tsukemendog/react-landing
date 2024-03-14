@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
+
+import "./custom/styles.css"; //Core theme CSS (includes Bootstrap)
+import "./custom/scripts";  //Core theme JS
+import Nav from "./component/Nav";
+import Masthead from "./component/Masthead";
+import Services from "./component/Services";
+import PortfolioGrid from "./component/PortfolioGrid";
+import About from "./component/About";
+import Team from "./component/Team";
+import Clients from "./component/Clients";
+import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={"App"}>
+      <Nav></Nav>
+      <Masthead></Masthead>
+      <Services></Services>
+      <PortfolioGrid></PortfolioGrid>
+      <About></About>
+      <Team></Team>
+      <Clients></Clients>
+      <Contact></Contact>
+      <Footer></Footer>
+   
     </div>
   );
 }
