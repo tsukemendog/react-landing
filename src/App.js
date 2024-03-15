@@ -2,9 +2,10 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap";
+
 
 import "./custom/styles.css"; //Core theme CSS (includes Bootstrap)
+//import "bootstrap";
 import "./custom/scripts";  //Core theme JS
 import Nav from "./component/Nav";
 import Masthead from "./component/Masthead";
