@@ -11329,7 +11329,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 header.masthead {
-  position: relative
+  position: relative;
 }
 
 header.masthead > .container {
@@ -11338,5 +11338,30 @@ header.masthead > .container {
 
 header.masthead > .container > .masthead-heading  {
   font-style: normal;
+  font-size: 50px;
 }
 
+
+#services p {
+  line-height: 1.5  !important;
+}
+
+#services svg {
+  font-size: 3em;
+  color: orange
+}
+
+
+#services .service-box {
+  padding : 30px;
+
+  border: 2px solid #adadad;
+}
+
+
+@media (min-width: 1200px) {
+  .service-box {
+    margin-left: 30px;
+    margin-right: 30px
+  }
+}
