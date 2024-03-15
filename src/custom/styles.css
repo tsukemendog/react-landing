@@ -11315,3 +11315,28 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5; /* 투명도 조절 */
+  z-index: -1; /* 텍스트 뒤에 위치하도록 함 */
+}
+
+header.masthead {
+  position: relative
+}
+
+header.masthead > .container {
+  color: #101214;
+}
+
+header.masthead > .container > .masthead-heading  {
+  font-style: normal;
+}
+
