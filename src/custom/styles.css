@@ -11358,10 +11358,28 @@ header.masthead > .container > .masthead-heading  {
   border: 2px solid #adadad;
 }
 
+.darkness-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2; /* 투명도 조절 */
+}
+
 
 @media (min-width: 1200px) {
   .service-box {
     margin-left: 30px;
     margin-right: 30px
   }
+}
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

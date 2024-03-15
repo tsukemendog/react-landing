@@ -11,9 +11,6 @@ import Nav from "./component/Nav";
 import Masthead from "./component/Masthead";
 import Services from "./component/Services";
 import PortfolioGrid from "./component/PortfolioGrid";
-import About from "./component/About";
-import Team from "./component/Team";
-import Clients from "./component/Clients";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 
@@ -23,11 +20,12 @@ function App() {
       <Nav></Nav>
       <Masthead></Masthead>
       <Services></Services>
-      <PortfolioGrid></PortfolioGrid>
+      <Contact></Contact>
+      {/*<PortfolioGrid></PortfolioGrid>
       <About></About>
       <Team></Team>
-      <Clients></Clients>
-      <Contact></Contact>
+      <Clients></Clients>-->*/}
+      
       <Footer></Footer>
    
     </div>
