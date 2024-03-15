@@ -45,7 +45,7 @@ function Nav() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <a className="nav-link" href="#contact" style={{color : 'orange', textTransform: 'none'}}>
                 Contact Us
               </a>
             </li>

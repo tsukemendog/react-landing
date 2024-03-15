@@ -8,7 +8,7 @@ function Footer() {
             <div class="col-lg-4 text-lg-start">
               Copyright &copy; Your Website 2023
             </div>
-            <div class="col-lg-4 my-3 my-lg-0">
+            {/*<div class="col-lg-4 my-3 my-lg-0">
               <a
                 class="btn btn-dark btn-social mx-2"
                 href="#!"
@@ -30,7 +30,7 @@ function Footer() {
               >
                 <i class="fab fa-linkedin-in"></i>
               </a>
-            </div>
+            </div>*/}
             <div class="col-lg-4 text-lg-end">
               <a class="link-dark text-decoration-none me-3" href="#!">
                 Privacy Policy

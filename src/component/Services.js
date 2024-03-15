@@ -37,7 +37,7 @@ function Services() {
           <div className="col-md-4 text-start">
           <div className="service-box">
               <div>
-                <i class="fa-solid fa-headset"></i>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
               </div>
 
               <h4 className="my-3">쇼핑몰 및 SI서비스</h4>
