@@ -11339,6 +11339,7 @@ header.masthead > .container {
 header.masthead > .container > .masthead-heading  {
   font-style: normal;
   font-size: 50px;
+  line-height: 70px;
 }
 
 
@@ -11376,10 +11377,26 @@ header.masthead > .container > .masthead-heading  {
 }
 
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+
+
+
+
+@media (max-width: 768px) {
+  #contact .section-heading {
+    text-align: center;
+  }
+
+  #contact .service-btn {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }

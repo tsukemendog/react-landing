@@ -15,13 +15,14 @@ function Contact() {
       ></div>
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-12 col-sm-12 col-md-6">
             <h3 className="section-heading text-uppercase">
               전자결제 서비스 신규가입
             </h3>
-            <p className="pt-4 section-heading text-uppercase">결제연동 신청</p>
+            <p className="section-heading text-uppercase">결제연동 신청</p>
           </div>
-          <div className="col-md-6">
+          
+          <div className="col-12 col-sm-12 col-md-6 service-btn">
             <button type="button" class="btn btn-outline-light vertical-center">
               서비스 신청 및 안내
             </button>
