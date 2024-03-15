@@ -8,7 +8,7 @@ function Nav() {
         {/*<!-- Navigation-->*/}
       <div className="container">
         <a className="navbar-brand" href="#page-top">
-          <img src="/img/navbar-logo.svg" alt="..." />
+          <img src="/img/navbar-logo.png" alt="..." />
         </a>
         <button
           className="navbar-toggler"
@@ -19,34 +19,34 @@ function Nav() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          Menu
+          메뉴
           <i className="fas fa-bars ms-1"></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
             <li className="nav-item">
               <a className="nav-link" href="#services">
-                Services
+                전자결제신청
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#portfolio">
-                Portfolio
+                개발가이드
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#about">
-                About
+                업무제휴문의
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#team">
-                Team
+                부가서비스
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">
-                Contact
+                Contact Us
               </a>
             </li>
           </ul>

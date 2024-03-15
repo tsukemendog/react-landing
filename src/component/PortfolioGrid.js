@@ -188,28 +188,28 @@ function PortfolioGrid() {
       {/*<!-- Portfolio Modals-->*/}
       {/*<!-- Portfolio item 1 modal popup-->*/}
       <div
-        class="portfolio-modal modal fade"
+        className="portfolio-modal modal fade"
         id="portfolioModal1"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-hidden="true">
         
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="close-modal" data-bs-dismiss="modal">
               <img src="/img/close-icon.svg" alt="Close modal" />
             </div>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div className="modal-body">
                     {/*<!-- Project details-->*/}
-                    <h2 class="text-uppercase">Project Name</h2>
-                    <p class="item-intro text-muted">
+                    <h2 className="text-uppercase">Project Name</h2>
+                    <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
                     <img
-                      class="img-fluid d-block mx-auto"
+                      className="img-fluid d-block mx-auto"
                       src="/img/portfolio/1.jpg"
                       alt="..."
                     />
@@ -220,7 +220,7 @@ function PortfolioGrid() {
                       aperiam quasi sunt officia expedita beatae cupiditate,
                       maiores repudiandae, nostrum, reiciendis facere nemo!
                     </p>
-                    <ul class="list-inline">
+                    <ul className="list-inline">
                       <li>
                         <strong>Client:</strong>
                         Threads
@@ -231,11 +231,11 @@ function PortfolioGrid() {
                       </li>
                     </ul>
                     <button
-                      class="btn btn-primary btn-xl text-uppercase"
+                      className="btn btn-primary btn-xl text-uppercase"
                       data-bs-dismiss="modal"
                       type="button"
                     >
-                      <i class="fas fa-xmark me-1"></i>
+                      <i className="fas fa-xmark me-1"></i>
                       Close Project
                     </button>
                   </div>
@@ -247,28 +247,28 @@ function PortfolioGrid() {
       </div>
       {/*<!-- Portfolio item 2 modal popup-->*/}
       <div
-        class="portfolio-modal modal fade"
+        className="portfolio-modal modal fade"
         id="portfolioModal2"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="close-modal" data-bs-dismiss="modal">
               <img src="/img/close-icon.svg" alt="Close modal" />
             </div>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div className="modal-body">
                     {/*<!-- Project details-->*/}
-                    <h2 class="text-uppercase">Project Name</h2>
-                    <p class="item-intro text-muted">
+                    <h2 className="text-uppercase">Project Name</h2>
+                    <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
                     <img
-                      class="img-fluid d-block mx-auto"
+                      className="img-fluid d-block mx-auto"
                       src="/img/portfolio/2.jpg"
                       alt="..."
                     />
@@ -279,7 +279,7 @@ function PortfolioGrid() {
                       aperiam quasi sunt officia expedita beatae cupiditate,
                       maiores repudiandae, nostrum, reiciendis facere nemo!
                     </p>
-                    <ul class="list-inline">
+                    <ul className="list-inline">
                       <li>
                         <strong>Client:</strong>
                         Explore
@@ -290,11 +290,11 @@ function PortfolioGrid() {
                       </li>
                     </ul>
                     <button
-                      class="btn btn-primary btn-xl text-uppercase"
+                      className="btn btn-primary btn-xl text-uppercase"
                       data-bs-dismiss="modal"
                       type="button"
                     >
-                      <i class="fas fa-xmark me-1"></i>
+                      <i className="fas fa-xmark me-1"></i>
                       Close Project
                     </button>
                   </div>
@@ -306,28 +306,28 @@ function PortfolioGrid() {
       </div>
       {/*<!-- Portfolio item 3 modal popup-->*/}
       <div
-        class="portfolio-modal modal fade"
+        className="portfolio-modal modal fade"
         id="portfolioModal3"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="close-modal" data-bs-dismiss="modal">
               <img src="/img/close-icon.svg" alt="Close modal" />
             </div>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div className="modal-body">
                     {/*<!-- Project details-->*/}
-                    <h2 class="text-uppercase">Project Name</h2>
-                    <p class="item-intro text-muted">
+                    <h2 className="text-uppercase">Project Name</h2>
+                    <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
                     <img
-                      class="img-fluid d-block mx-auto"
+                      className="img-fluid d-block mx-auto"
                       src="/img/portfolio/3.jpg"
                       alt="..."
                     />
@@ -338,7 +338,7 @@ function PortfolioGrid() {
                       aperiam quasi sunt officia expedita beatae cupiditate,
                       maiores repudiandae, nostrum, reiciendis facere nemo!
                     </p>
-                    <ul class="list-inline">
+                    <ul className="list-inline">
                       <li>
                         <strong>Client:</strong>
                         Finish
@@ -349,11 +349,11 @@ function PortfolioGrid() {
                       </li>
                     </ul>
                     <button
-                      class="btn btn-primary btn-xl text-uppercase"
+                      className="btn btn-primary btn-xl text-uppercase"
                       data-bs-dismiss="modal"
                       type="button"
                     >
-                      <i class="fas fa-xmark me-1"></i>
+                      <i className="fas fa-xmark me-1"></i>
                       Close Project
                     </button>
                   </div>
@@ -365,28 +365,28 @@ function PortfolioGrid() {
       </div>
       {/*<!-- Portfolio item 4 modal popup-->*/}
       <div
-        class="portfolio-modal modal fade"
+        className="portfolio-modal modal fade"
         id="portfolioModal4"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="close-modal" data-bs-dismiss="modal">
               <img src="/img/close-icon.svg" alt="Close modal" />
             </div>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div className="modal-body">
                     {/*<!-- Project details-->*/}
-                    <h2 class="text-uppercase">Project Name</h2>
-                    <p class="item-intro text-muted">
+                    <h2 className="text-uppercase">Project Name</h2>
+                    <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
                     <img
-                      class="img-fluid d-block mx-auto"
+                      className="img-fluid d-block mx-auto"
                       src="/img/portfolio/4.jpg"
                       alt="..."
                     />
@@ -397,7 +397,7 @@ function PortfolioGrid() {
                       aperiam quasi sunt officia expedita beatae cupiditate,
                       maiores repudiandae, nostrum, reiciendis facere nemo!
                     </p>
-                    <ul class="list-inline">
+                    <ul className="list-inline">
                       <li>
                         <strong>Client:</strong>
                         Lines
@@ -408,11 +408,11 @@ function PortfolioGrid() {
                       </li>
                     </ul>
                     <button
-                      class="btn btn-primary btn-xl text-uppercase"
+                      className="btn btn-primary btn-xl text-uppercase"
                       data-bs-dismiss="modal"
                       type="button"
                     >
-                      <i class="fas fa-xmark me-1"></i>
+                      <i className="fas fa-xmark me-1"></i>
                       Close Project
                     </button>
                   </div>
@@ -424,28 +424,28 @@ function PortfolioGrid() {
       </div>
       {/*<!-- Portfolio item 5 modal popup-->*/}
       <div
-        class="portfolio-modal modal fade"
+        className="portfolio-modal modal fade"
         id="portfolioModal5"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="close-modal" data-bs-dismiss="modal">
               <img src="/img/close-icon.svg" alt="Close modal" />
             </div>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div className="modal-body">
                     {/*<!-- Project details-->*/}
-                    <h2 class="text-uppercase">Project Name</h2>
-                    <p class="item-intro text-muted">
+                    <h2 className="text-uppercase">Project Name</h2>
+                    <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
                     <img
-                      class="img-fluid d-block mx-auto"
+                      className="img-fluid d-block mx-auto"
                       src="/img/portfolio/5.jpg"
                       alt="..."
                     />
@@ -456,7 +456,7 @@ function PortfolioGrid() {
                       aperiam quasi sunt officia expedita beatae cupiditate,
                       maiores repudiandae, nostrum, reiciendis facere nemo!
                     </p>
-                    <ul class="list-inline">
+                    <ul className="list-inline">
                       <li>
                         <strong>Client:</strong>
                         Southwest
@@ -467,11 +467,11 @@ function PortfolioGrid() {
                       </li>
                     </ul>
                     <button
-                      class="btn btn-primary btn-xl text-uppercase"
+                      className="btn btn-primary btn-xl text-uppercase"
                       data-bs-dismiss="modal"
                       type="button"
                     >
-                      <i class="fas fa-xmark me-1"></i>
+                      <i className="fas fa-xmark me-1"></i>
                       Close Project
                     </button>
                   </div>
@@ -483,28 +483,28 @@ function PortfolioGrid() {
       </div>
       {/*<!-- Portfolio item 6 modal popup-->*/}
       <div
-        class="portfolio-modal modal fade"
+        className="portfolio-modal modal fade"
         id="portfolioModal6"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="close-modal" data-bs-dismiss="modal">
               <img src="/img/close-icon.svg" alt="Close modal" />
             </div>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div className="modal-body">
                     {/*<!-- Project details-->*/}
-                    <h2 class="text-uppercase">Project Name</h2>
-                    <p class="item-intro text-muted">
+                    <h2 className="text-uppercase">Project Name</h2>
+                    <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
                     <img
-                      class="img-fluid d-block mx-auto"
+                      className="img-fluid d-block mx-auto"
                       src="/img/portfolio/6.jpg"
                       alt="..."
                     />
@@ -515,7 +515,7 @@ function PortfolioGrid() {
                       aperiam quasi sunt officia expedita beatae cupiditate,
                       maiores repudiandae, nostrum, reiciendis facere nemo!
                     </p>
-                    <ul class="list-inline">
+                    <ul className="list-inline">
                       <li>
                         <strong>Client:</strong>
                         Window
@@ -526,11 +526,11 @@ function PortfolioGrid() {
                       </li>
                     </ul>
                     <button
-                      class="btn btn-primary btn-xl text-uppercase"
+                      className="btn btn-primary btn-xl text-uppercase"
                       data-bs-dismiss="modal"
                       type="button"
                     >
-                      <i class="fas fa-xmark me-1"></i>
+                      <i className="fas fa-xmark me-1"></i>
                       Close Project
                     </button>
                   </div>
