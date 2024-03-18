@@ -13,6 +13,7 @@ import Services from "./component/Services";
 import PortfolioGrid from "./component/PortfolioGrid";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
+import FooterContent from "./component/FooterContent";
 
 function App() {
   return (
@@ -21,10 +22,7 @@ function App() {
       <Masthead></Masthead>
       <Services></Services>
       <Contact></Contact>
-      {/*<PortfolioGrid></PortfolioGrid>
-      <About></About>
-      <Team></Team>
-      <Clients></Clients>-->*/}
+      <PortfolioGrid></PortfolioGrid>
       
       <Footer></Footer>
    
