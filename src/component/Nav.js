@@ -25,12 +25,12 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#services">
+              <a className="nav-link" href="mailto: help@skyclassism.com">
                 전자결제신청
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">
+              <a className="nav-link" href="https://docs.skyclassism.com" target="_blank" rel="noopener noreferrer">
                 개발가이드
               </a>
             </li>
@@ -40,12 +40,12 @@ function Nav() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#team">
+              <a className="nav-link" href="#portfolio">
                 부가서비스
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact" style={{color : 'orange', textTransform: 'none'}}>
+              <a className="nav-link" href="mailto: help@skyclassism.com" style={{color : 'orange', textTransform: 'none'}}>
                 Contact Us
               </a>
             </li>
