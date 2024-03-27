@@ -44,6 +44,14 @@ function Footer() {
               </span>
               <div className="pt-4 footer-content-2">
 
+                  <p className="sky-text">스카이클래스 : <a href="https://skyclassism.com" target="_blank" rel="noopener noreferrer">skyclassism.com</a></p>
+
+                  <p className="sky-text">내 쇼핑 : <a href="https://wantshop.shop" target="_blank" rel="noopener noreferrer">wantshop.shop</a></p> 
+
+                  <p className="sky-text">내 가게 : <a href="https://mtown.shop" target="_blank" rel="noopener noreferrer">mtown.shop</a></p>
+
+                  <br></br>
+
                   <p className="sky-text">개인정보처리방침</p>
 
                   <p className="sky-text">위치정보서비스약관</p> 
@@ -51,16 +59,17 @@ function Footer() {
                   <p className="sky-text">위치정보처리방침</p>
 
               </div>
+              
             </div>
           </div>
         </div>
       </div>
 
       {/*<!-- Footer--> */}
-      <div class="footer py-4" style={{ backgroundColor: "rgb(41,71,169)" }}>
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6 text-lg-start text-white">
+      <div className="footer py-4" style={{ backgroundColor: "rgb(41,71,169)" }}>
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 text-lg-start text-white">
               주식회사 스카이클래스 © 2022. All Rights Reserved
             </div>
           </div>

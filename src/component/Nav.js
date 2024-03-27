@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Nav() {
 
     return (
@@ -7,7 +9,7 @@ function Nav() {
       id="mainNav">
         {/*<!-- Navigation-->*/}
       <div className="container">
-        <a className="navbar-brand" href="#page-top">
+        <a className="navbar-brand" href="/">
           <img src="/img/navbar-logo.png" alt="..." />
         </a>
         <button
@@ -25,9 +27,10 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="mailto: help@skyclassism.com">
+              <Link to={'/apply'} className="nav-link">
                 전자결제신청
-              </a>
+              </Link>
+
             </li>
             <li className="nav-item">
               <a className="nav-link" href="https://docs.skyclassism.com" target="_blank" rel="noopener noreferrer">

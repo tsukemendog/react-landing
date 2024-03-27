@@ -10,7 +10,7 @@ function Services() {
           <div className="col-md-4 text-start">
             <div className="service-box">
               <div>
-                <i class="fa-solid fa-headset"></i>
+                <i className="fa-solid fa-headset"></i>
               </div>
 
               <h4 className="my-3">전자결제서비스</h4>
@@ -24,7 +24,7 @@ function Services() {
           <div className="col-md-4 text-start">
           <div className="service-box">
               <div>
-                <i class="fa-solid fa-headset"></i>
+                <i className="fa-solid fa-headset"></i>
               </div>
 
               <h4 className="my-3">회원관리ERP</h4>
@@ -37,7 +37,7 @@ function Services() {
           <div className="col-md-4 text-start">
           <div className="service-box">
               <div>
-                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <i className="fa-solid fa-screwdriver-wrench"></i>
               </div>
 
               <h4 className="my-3">쇼핑몰 및 SI서비스</h4>

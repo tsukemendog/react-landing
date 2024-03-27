@@ -23,7 +23,7 @@ function Contact() {
           </div>
           
           <div className="col-12 col-sm-12 col-md-6 service-btn">
-            <button type="button" class="btn btn-outline-light vertical-center">
+            <button type="button" className="btn btn-outline-light vertical-center">
               서비스 신청 및 안내
             </button>
           </div>
